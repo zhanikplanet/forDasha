@@ -39,8 +39,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-function HamburgerMenu() {
-    const mylinks = document.querySelector(".navigation-links");
+function toogleMenu() {
+    const mylinks = document.querySelector(".hamburgerIcon");
     if (mylinks.style.display === "block") {
         mylinks.style.display = "none";
     } else {

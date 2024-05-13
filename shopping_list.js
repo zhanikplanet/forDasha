@@ -1,15 +1,15 @@
 document.addEventListener("DOMContentLoaded", function() {
         displayShoppingList();
 });
-
-// function HamburgerMenu() {
-//     const mylinks = document.querySelector(".navigation-links");
-//     if (mylinks.style.display === "block") {
-//         mylinks.style.display = "none";
-//     } else {
-//         mylinks.style.display = "block";
-//     }
-// }
+    
+function toogleMenu() {
+    const mylinks = document.querySelector(".hamburgerIcon");
+    if (mylinks.style.display === "block") {
+        mylinks.style.display = "none";
+    } else {
+        mylinks.style.display = "block";
+    }
+}
 
 // function showLoadingSpinner() {
 //     document.querySelector('.loading-overlay').style.display = 'block';

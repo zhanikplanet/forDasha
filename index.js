@@ -30,7 +30,14 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-
+function toogleMenu() {
+    const mylinks = document.querySelector(".hamburgerIcon");
+    if (mylinks.style.display === "block") {
+        mylinks.style.display = "none";
+    } else {
+        mylinks.style.display = "block";
+    }
+}
 
 
 function showLoadingSpinner() {
