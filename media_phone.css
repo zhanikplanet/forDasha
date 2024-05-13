@@ -1,0 +1,143 @@
+@media (min-width: 300px ) and ( max-width: 400px ) {
+
+    .jumbotrone {
+        height: 500px;
+        margin-top: 100px;
+    }
+    
+    .jumbotrone-header {
+        padding-top: 100px;
+        margin-left: 50px;
+        width: 300px;
+        height: 100px;
+        color: #fefbf7;
+        font-size: 30px;
+    }
+
+    .discover_text {
+        margin-top: 140px;
+        margin-left: 50px;
+        width: 300px;
+        height: 100px;
+        color: #fefbf7;
+        font-size: 15px;
+    }
+
+    .jumbotrone-footer button{
+        font-size: medium;
+        margin-left: 50px;
+        width: 200px;
+        height: 30px;
+    }
+
+    /* section 1 end: visit chocolate shop */
+
+    /* section 2 start: text about journey */
+
+    .the_beginning_div {
+        margin-top: 50px;
+        height: 380px;
+    }
+
+    .the_beginning_text {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    .there_was_text {
+        margin-top: 180px;
+        margin-left: 50px;
+        width: 300px;
+        height: 120px;
+        font-size: 15px;
+    }
+
+    .read_more_beginning {
+        margin-top: 350px;
+        margin-left: 50px;
+    }
+
+    /* section 2 end */
+
+    /* section 3 start: step into */
+
+    .step_into_div {
+        margin-top: 50px;
+        width: 100%;
+        height: 2100px;
+    }
+
+    .step_into_text {
+        margin-top: 70px;
+        margin-left: 150px;
+        width: 100px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .dreamscape_text {
+        margin-top: 120px;
+        margin-left: 50px;
+        width: 300px;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .choco1_div {
+        margin-left: 75px;
+    }
+
+    .choco2_div {
+        margin-top: 750px;
+        margin-left: 75px;
+    }
+
+    .choco3_div {
+        margin-top: 1200px;
+        margin-left: 75px;
+    }
+
+    .choco4_div {
+        margin-top: 1650px;
+        margin-left: 75px;
+    }
+
+    /* section 3 end: step into */
+
+    /* section 4 start: gift ideas */
+
+    .gift_div {
+        margin-top: 100px;
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .backg_text_div {
+        width: 400px;
+    }
+    
+    .back_pic {
+        width: 400px;
+    }
+
+    .gift_ideas_text {
+        margin-top: 100px;
+        margin-left: 50px;
+        width: 300px;
+        height: 100px;
+        font-size: 40px;
+    }
+
+    .choco_pic_background {
+        margin-top: 266px;
+        width: 400px;
+    }
+    
+    .backg2 {
+        width: 400px;
+    }
+
+
+}

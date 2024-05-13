@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Online Shop</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./media_phone.css">
+    <link rel="stylesheet" href="./media_ipad.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__container">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a href="./shop.html" class="header__link">Shop</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="" class="header__link">About Us</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="" class="header__link">Contacts</a>
+                    </li>
+                </ul>
+                
+                <div class="header__logo">
+                    <a href="./index.html" class="header__logo-link">
+                        <img src="./img/logo.jpg" alt="" class="header__logo-img" width="40px">
+                        <p class="header__logo-text">Homemade<br> Chocolate</p>
+                    </a>
+                </div>
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a href="" class="header__link">
+                            <img src="./img/person.svg" alt="" class="header__link-svg">
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a href="" class="header__link">
+                            <img src="./img/heart.svg" alt="" class="header__link-svg">
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a href="./shopping_list.html" class="header__link">
+                            <img src="./img/bag.svg" alt="" class="header__link-svg">
+                        </a>
+                    </li>
+                </ul>
+                <div class="burger-menu"> 
+                    <div class="burger-icon" onclick="toggleMenu()"> 
+                        <div class="bar"></div> 
+                        <div class="bar"></div> 
+                        <div class="bar"></div> 
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <br>
+
+    <div class="loading-overlay">
+        <span class="img-text">Wait a Little Bit Please!</span>
+        <img src="img/picmix.com_1613194.gif" alt="Loading...">
+    </div>
+
+
+    <main>
+        
+        <div class="jumbotrone">
+            <h3 class="jumbotrone-header">There is nothing better than a friend, unless it is a friend with chocolate</h3>
+            <p class="discover_text">Discover Sweet Moments: Where Friendship and Chocolate Meet</p>
+            <div class="jumbotrone-footer">
+                <button type="submit">Visit Chocolate Store</button>
+            </div>
+        </div>
+
+
+
+        <div class="the_beginning_div">
+            <h1 class="the_beginning_text">The beginning
+            of my journey</h1>
+
+            <h3 class="there_was_text">There was once a little girl whose eyes shone every time she was offered chocolate, a girl whose silence was bribed with little chunks of milk chocolate with almonds. Then, one day she received the key to creation, a cook book. And her adventure began..</h3>
+
+            <a class="read_more_beginning">Read more</a>
+        
+        </div>
+
+        
+        <div class="step_into_div">
+            <h3 class="step_into_text">STEP INTO</h3>
+
+            <h1 class="dreamscape_text">a dreamscape of chocolate</h1>
+
+            <div class="choco1_div">
+                <a href="" class="choco1_pic">
+                    <img src="./img/choco1.jpg" alt="choco1" class="choco1">
+                </a>
+                <br>
+                <h3 class="choco1_name">Neptune with blueberries</h3>
+            </div>
+
+            <div class="choco2_div">
+                <a href="" class="choco2_pic">
+                    <img src="./img/choco2.jpg" alt="choco2" class="choco2">
+                </a>
+                <br>
+                <h3 class="choco2_name">Mother Earth</h3>
+            </div>
+
+            <div class="choco3_div">
+                <a href="" class="choco3_pic">
+                    <img src="./img/choco3.jpg" alt="choco3" class="choco3">
+                </a>
+                <br>
+                <h3 class="choco3_name">Sea of Tranquility</h3>
+            </div>
+
+            <div class="choco4_div">
+                <a href="" class="choco4_pic">
+                    <img src="./img/choco4.jpg" alt="choco4" class="choco4">
+                </a>
+                <br>
+                <h3 class="choco4_name">Crocus Beauty</h3>
+            </div>
+
+        </div>
+
+        <div class="gift_div">
+            <div class="backg_text_div">
+                <img src="./img/backg_pic.jpg" alt="back_pic" class="back_pic">
+
+                <h1 class="gift_ideas_text">Gift ideas perfect for all occasions</h1>
+            </div>
+
+            <div class="choco_pic_background">
+                <img src="./img/backg2.jpg" alt="backg2" class="backg2">
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__container">
+                <div class="footer__block">
+                    <div class="footer__logo">
+                        <a href="./index.html" class="footer__logo-link">
+                            <img src="./img/logo.jpg" alt="" class="footer__logo-img" width="40px">
+                            <p class="footer__logo-text">Homemade<br> Chocolate</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__block">
+                    <p class="footer__block-header">BOUTIQUE LUCERNE</p>
+                    <p class="footer__contact">Hertensteinstrasse 7<br>6004 Lucerne<br>Switzerland</p>
+                    <p class="footer__block-header">OPENING HOURS</p>
+                    <div class="footer__block-grid">
+                        <p class="opening__hours">Monday</p>
+                        <p class="opening__hours">10.00 – 18.30<br></p>
+                        <p  class="opening__hours">Tuesday</p>
+                        <p class="opening__hours">10.00 – 18.30<br></p>
+                        <p  class="opening__hours">Wednesday</p>
+                        <p class="opening__hours">10.00 – 18.30<br></p>
+                        <p  class="opening__hours">Thursday</p>
+                        <p class="opening__hours">10.00 – 18.30<br></p>
+                        <p  class="opening__hours">Friday</p>
+                        <p class="opening__hours">10.00 – 18.30<br></p>
+                        <p  class="opening__hours">Saturday</p>
+                        <p class="opening__hours">09.00 – 17.00<br></p>
+                        <p class="opening__hours">Sunday</p>
+                        <p class="opening__hours">closed<br></p>
+                    </div>
+                    <a href="#!" class="footer__link">More about Boutique Lucerne</a>
+                </div>
+
+                <div class="footer__block">
+                    <p class="footer__block-header">BOUTIQUE ZURICH</p>
+                    <p class="footer__contact">Schlüsselgasse 12<br>8001 Zurich<br>Switzerland</p>
+                    <p class="footer__block-header">OPENING HOURS</p>
+                    <div class="footer__block-grid">
+                        <p class="opening__hours">Monday</p>
+                        <p class="opening__hours">10.00 – 18.30<br></p>
+                        <p  class="opening__hours">Tuesday</p>
+                        <p class="opening__hours">10.00 – 18.30<br></p>
+                        <p  class="opening__hours">Wednesday</p>
+                        <p class="opening__hours">10.00 – 18.30<br></p>
+                        <p  class="opening__hours">Thursday</p>
+                        <p class="opening__hours">10.00 – 18.30<br></p>
+                        <p  class="opening__hours">Friday</p>
+                        <p class="opening__hours">10.00 – 18.30<br></p>
+                        <p  class="opening__hours">Saturday</p>
+                        <p class="opening__hours">09.00 – 17.00<br></p>
+                        <p class="opening__hours">Sunday</p>
+                        <p class="opening__hours">closed<br></p>
+                    </div>
+                    <a href="#!" class="footer__link">More about Boutique Zurich</a>
+                </div>
+                <div class="footer__block footer__block-last">
+                    <p class="footer__block-header">FOLLOW US</p>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="" class="footer__link">
+                                <img src="./img/facebook.svg" alt="" class="header__link-svg">
+                            </a>
+                        </li>
+                        <li class="header__item">
+                            <a href="" class="footer__link">
+                                <img src="./img/instagram.svg" alt="" class="header__link-svg">
+                            </a>
+                        </li>
+                        <li class="header__item">
+                            <a href="" class="footer__link">
+                                <img src="./img/twitter.svg" alt="" class="header__link-svg">
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="footer__contact">Obergrundstrasse 42<br>6003 Lucerne<br>
+                        <a href="tel:+41414187090" class="footer__link">+41 (0) 41 418 70 90<br></a>
+                        <a href="mailto:info@maxchocolatier.com" class="footer__link">info@maxchocolatier.com</a></p>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

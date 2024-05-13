@@ -1,0 +1,687 @@
+/* poppins-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/poppins-v21-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* poppins-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v21-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* poppins-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/poppins-v21-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 16px;
+  font-weight: normal;
+  color: #000;
+  background-color: #fafafa;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-inline: 80px;
+}
+
+
+/* header start */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+  }
+
+
+  
+  .header__container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0px;
+    overflow: hidden;
+    position: relative;
+
+  }
+
+  .header__logo-link{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: auto;
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .header__logo-text {
+    text-align: center;
+  }
+  
+  .header__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .header__link{
+    font-size: 16px;
+    line-height: 9px;
+    color: #474747;
+    text-decoration: none;
+  }
+  
+  .header__item {
+    margin-right: 40px;
+  }
+
+  .header__item:last-child {
+    position: relative;
+    margin-right: 0;
+  }
+
+  .header__link:hover,
+  .header__link:active {
+  opacity: 0.7;
+}
+
+
+.burger-menu { 
+    display: none; 
+  }
+
+
+/* header end */
+
+
+main {
+    flex: 1;
+}
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    z-index: 9999;
+}
+
+.loading-overlay img {
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 10%;
+    width: 300px; 
+    height: auto;
+}
+.loading-overlay .img-text{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    color: antiquewhite;
+    font-size: 50px;
+}
+
+/* section 1 start: visit chocolate shop */
+
+.jumbotrone{
+    margin-top: 100px;
+    color: aliceblue;
+    width: 100%;
+    height: 800px;
+    background-image:url("img/backg_jumbo.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotrone-header {
+    padding-top: 300px;
+    margin-left: 400px;
+    width: 800px;
+    height: 100px;
+    color: #fefbf7;
+    font-size: 40px;
+}
+
+.discover_text {
+    margin-top: 140px;
+    margin-left: 400px;
+    width: 800px;
+    height: 100px;
+    color: #fefbf7;
+    font-size: 25px;
+}
+
+.jumbotrone-footer{
+    padding-top: 70px;
+    height: 500px;
+}
+
+.jumbotrone-footer button{
+    font-size: large;
+    font-style: italic;
+    background-color: antiquewhite;
+    margin-left: 40%;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+/* section 1 end: visit chocolate shop */
+
+/* section 2 start: text about journey */
+
+.the_beginning_div {
+    margin-top: 100px;
+    margin-left: 0px;
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+.the_beginning_text {
+    margin-top: 140px;
+    margin-left: 250px;
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    color: #c5a27d;
+    font-size: 40px;
+}
+
+.there_was_text {
+    margin-top: 150px;
+    margin-left: 600px;
+    width: 700px;
+    height: 100px;
+    position: absolute;
+    color: #505050;
+    font-size: 17px;
+}
+
+.read_more_beginning {
+    margin-top: 250px;
+    margin-left: 600px;
+    position: absolute;
+}
+
+.read_more_beginning::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    width: 0;
+    bottom: -5px;
+    background: #000;
+    height: 1px;
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.read_more_beginning:hover:after,
+.read_more_beginning:focus:after,
+.read_more_beginning:active:after {
+  left: 0;
+  right: auto;
+  width: 100%;
+}
+
+/* section 2 end */
+
+/* section 3 start: step into */
+
+.step_into_div {
+    margin-top: 100px;
+    margin-left: 0px;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    background-color: #fcf3e7;
+}
+
+.step_into_text {
+    margin-top: 100px;
+    margin-left: 700px;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    color: #181818;
+    font-size: 26px;
+    font-weight: lighter;
+}
+
+.dreamscape_text {
+    margin-top: 140px;
+    margin-left: 500px;
+    position: absolute;
+    width: 700px;
+    height: 100px;
+    color: #181818;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.choco1_div {
+    margin-top: 300px;
+    margin-left: 100px;
+    width: 250px;
+    height: 300px;
+    position: absolute;
+}
+
+.choco1 {
+    width: 250px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.choco1_name {
+    margin-top: 40px;
+    color: #181818;
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+}
+
+.choco2_div {
+    width: 250px;
+    height: 300px;
+    margin-top: 300px;
+    margin-left: 450px;
+    position: absolute;
+}
+
+.choco2 {
+    width: 250px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.choco2_name {
+    margin-top: 40px;
+    color: #181818;
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+}
+
+.choco3_div {
+    width: 250px;
+    height: 300px;
+    margin-top: 300px;
+    margin-left: 800px;
+    position: absolute;
+}
+
+.choco3 {
+    width: 250px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.choco3_name {
+    margin-top: 40px;
+    color: #181818;
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+}
+
+.choco4_div {
+    width: 250px;
+    height: 300px;
+    margin-top: 300px;
+    margin-left: 1150px;
+    position: absolute;
+}
+
+.choco4 {
+    width: 250px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.choco4_name {
+    margin-top: 40px;
+    color: #181818;
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+}
+
+/* section 3 end: step into */
+
+/* section 4 start: gift ideas */
+
+.gift_div {
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+.backg_text_div {
+    width: 750px;
+    position: relative;
+}
+
+.back_pic {
+    width: 750px;
+    position: absolute;
+}
+
+.gift_ideas_text {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+    width: 400px;
+    height: 100px;
+    color: #333333;
+    font-size: 50px;
+}
+
+.choco_pic_background {
+    width: 750px;
+}
+
+.backg2 {
+    width: 750px;
+}
+
+/* section 4 end: gift ideas */
+
+/* footer start */
+
+
+.footer {
+    background-color: #ffffff;
+    height: 100%;
+    margin-top: 100px;
+    max-width: 100%;
+  }
+  
+  .footer__container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+  }
+  
+  .footer__container>* {
+    display: grid;
+    grid-column-gap: 16px;
+    grid-row-gap: 10px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    width: 100%;
+    max-width: 25%;
+    margin-bottom: 20px;
+  }
+
+  .footer__container>:last-child {
+    margin-right: 0px;
+  }
+  
+  .footer__logo-link{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 66px;
+    letter-spacing: 0.396px;
+    color: rgba(0, 0, 0, 0.85);
+    text-decoration: none;
+  }
+
+  .footer__logo-img {
+    width: 100px;
+  }
+
+  .footer__logo-link{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  
+
+  .footer__logo-text {
+    text-align: center;
+  }
+  
+  .footer__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.396px;
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+
+  .footer__block {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    display: flex;
+}
+
+  .footer__block-header {
+    font-size: 20px;
+    line-height: auto;
+    color: black;
+    margin: 10px 0px;
+  }
+  
+  .footer__contact {
+    font-size: 16px;
+    line-height: 20px;
+    color: #474747;
+  }
+
+  .footer__block-grid {
+    display: grid;
+    grid-column-gap: 16px;
+    grid-row-gap: 10px;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer__link {
+    font-size: 16px;
+    line-height: 20px;
+    color: #474747;
+    text-decoration: none;
+  }
+
+  .footer__link:hover,
+  .footer__link:active {
+  opacity: 0.7;
+}
+
+  .footer__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer__link{
+    color: #474747;
+    text-decoration: none;
+  }
+  
+  .footer__item {
+    margin-right: 40px;
+  }
+
+  .footer__item:last-child {
+    position: relative;
+    margin-right: 0;
+  }
+
+  .footer__block-last>:last-child {
+    margin-top: 30px;
+  }
+
+
+  @media (max-width:800px) {
+    .footer__container>* {
+        max-width: 50%;
+    }
+  }
+
+  @media (max-width:400px) {
+
+    .container {
+        padding-inline: 50px;
+    }
+
+    .footer__container>* {
+        max-width: 100%;
+    }
+
+  }
+
+
+
+  @media screen and (max-width: 400px) { 
+    .burger-menu { 
+        display: block;  
+    } 
+ 
+    .header__list { 
+        display: none;  
+    } 
+ 
+     
+ 
+.burger-icon { 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between; 
+  width: 30px; 
+  height: 20px; 
+  cursor: pointer; 
+} 
+ 
+.bar { 
+  width: 100%; 
+  height: 3px; 
+  background-color: black; 
+  border-radius: 5px; 
+} 
+ 
+.burger-menu-list { 
+  padding: 0; 
+  margin: 0; 
+  list-style: none; 
+} 
+ 
+ 
+.burger-menu-list .header__item { 
+  display: block; 
+  padding: 10px 15px; 
+  text-align: center; 
+  border-bottom: 1px solid #ccc; 
+} 
+ 
+}
+
+
+
+
+
+
+
+
+
+
+/* footer end */
+ 
+/* @media (max-width:800px) { 
+    .footer__container>* { 
+        max-width: 50%;
+        margin-left: 0px;
+    } 
+
+    .header__container { 
+        margin-left: 0px;
+    } 
+
+
+
+} 
+ 
+@media (max-width:400px) { 
+ 
+    .container { 
+        padding-inline: 50px; 
+    } 
+ 
+    .footer__container>* { 
+        max-width: 100%; 
+        padding-left: 0px;
+    } 
+ 
+  
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+

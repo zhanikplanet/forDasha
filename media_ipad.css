@@ -1,0 +1,114 @@
+@media (min-width: 700px ) and ( max-width: 800px ) {
+
+    .jumbotrone {
+        margin-top: 90px;
+    }
+
+    .jumbotrone-header {
+        padding-top: 200px;
+        margin-left: 130px;
+        width: 600px;
+        height: 200px;
+    }
+
+    .discover_text {
+        margin-top: 180px;
+        margin-left: 130px;
+        width: 600px;
+        height: 100px;
+        color: #fefbf7;
+        font-size: 25px;
+    }
+
+    .jumbotrone-footer button{
+        margin-left: 250px;
+    }
+
+    /* section 1 end: visit chocolate shop */
+
+    /* section 2 start: text about journey */
+
+    .the_beginning_text {
+        margin-left: 100px;
+    }
+
+    .there_was_text {
+        margin-left: 400px;
+        width: 300px;
+        font-size: 13px;
+    }
+
+    .read_more_beginning {
+        margin-left: 400px;    
+    }
+
+    /* section 2 end */
+
+    /* section 3 start: step into */
+    
+
+    .step_into_div {
+        height: 1100px;
+    }
+
+    .step_into_text {
+        margin-left: 330px;
+    }
+
+    .dreamscape_text {
+        margin-left: 125px;
+    }
+    
+    .choco1_div {
+        margin-left: 100px;
+    }
+
+    .choco2_div {
+        margin-left: 450px;
+    }
+
+    .choco3_div {
+        margin-top: 750px;
+        margin-left: 100px;
+    }
+
+    .choco4_div {
+        margin-top: 750px;
+        margin-left: 450px;
+    }
+
+    /* section 3 end: step into */
+
+    /* section 4 start: gift ideas */
+
+    .gift_div {
+        margin-top: 100px;
+        height: 270px;
+    }
+
+    .backg_text_div {
+        width: 400px;
+    }
+
+    .back_pic {
+        width: 400px;
+    }
+
+    .gift_ideas_text {
+        margin-top: 100px;
+        margin-left: 100px;
+        width: 250px;
+        font-size: 30px;
+    }
+
+    .choco_pic_background {
+        width: 400px;
+    }
+    
+    .backg2 {
+        width: 400px;
+    }
+
+
+
+}
